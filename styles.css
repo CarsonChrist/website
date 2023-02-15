@@ -1,0 +1,40 @@
+.nav-link:hover {
+    transition: 0.2s;
+    color: #78C2AD !important;
+}
+
+.static {
+    position: absolute
+}
+
+.card:hover>.static {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+#sidebarbtn {
+    z-index: 10;
+}
+
+.unavailable:hover {
+    color: gray !important;
+    opacity: 50%;
+    transition: all 0.2s;
+}
+
+h2:hover {
+    color: #78C2AD;
+}
+
+h2 {
+    transition: all 0.2s;
+}
+
+.links:hover>div>a>* {
+    color: #78C2AD !important;
+    transition: all 0.2s;
+}
+
+.links>div>p {
+    color: gray;
+}

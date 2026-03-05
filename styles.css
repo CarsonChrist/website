@@ -62,3 +62,7 @@ h2 {
     transition: none !important;
     display: none !important;
 }
+
+.no-hover-cursor:hover {
+    cursor: default;
+}
